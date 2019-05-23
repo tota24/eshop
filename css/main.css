@@ -4,17 +4,90 @@
     background-color: #232f3e;
     border-radius: 8px 8px 0 0;
     margin-top: 10px;
+    color: #fff;
+}
+.header a
+{
+    color: #bcbdc7;
+    transition:all 0.3s linear;
+}
+.topinfo
+{
+    border-bottom: 1px solid #303e4f;
+    justify-content: space-between;
 }
 
-
-
-
-
-
-
-
-
-
+.acconutlistlink
+{
+    display: block;
+    padding: 5px 12px;
+    
+}
+.acconutlistlink:hover
+{
+    color: #fff;
+}
+.acconutlistlink>i
+{
+    padding-left: 4px;
+}
+.fa-icon
+{
+    width: 20px;
+    vertical-align: middle;
+}
+.languages
+{
+    padding: 5px 0 0 10px;
+}
+.header-info
+{
+    padding: 20px;
+}
+.serchbox
+{
+    flex-grow: 1;
+    height: 40px;
+    justify-content: center;
+}
+.categoryslist
+{
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 15px;
+}
+.sercheinput
+{
+    border: none;
+    padding: 8px 15px;
+}
+.btnserche
+{
+    padding: 10px 15px;
+    border-radius: 20px 0 0 20px;
+    background-color: #f4a137;
+    color: #fff !important;
+}
+.countactus
+{
+    margin: 0 0.8em;
+    font-size: 0.9em;
+}
+.countactusicon
+{
+    font-size: 2em;
+    padding: 0 0.4em;
+    margin-top: 4px;
+}
+.cart
+{
+    font-size: 0.9em; 
+}
+.carticon
+{
+    background-color: #f4a137;
+    padding: 5px;
+}
 
 
 

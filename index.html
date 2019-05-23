@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +13,47 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="topinfo">fff</div>
-            <div class="logo"></div>
+            <div class="topinfo flex">
+                <ul class="accountlist flex">
+                    <li class="accountlistitem"><a href="" class="acconutlistlink"> <i class="fas fa-user"></i> ثبت نام</a></li>
+                    <li class="accountlistitem"><a href="" class="acconutlistlink"><i class="fas fa-lock"></i> ورود</a></li>
+                </ul>
+                <div class="languages"><img class="fa-icon" src="image/icons/iran.png" alt="persian-laguage"> فارسی</div>
+            </div>
+            <div class="header-info flex">
+                <div class="logo"><img src="image/logo.png" alt=""></div>
+                <div class="serchbox flex">
+                    <select name="" id="" class="categoryslist">
+                        <option value="1">کامپیوتر</option>
+                        <option value="2">موبایل</option>
+                        <option value="3">شبکه</option>
+                        <option value="4">پرینتر</option>
+
+                    </select>
+                    <input type="text" class="sercheinput" placeholder="عنوانی رای برای جستجو وارد کنید">
+                    <a class="btnserche" href=""><i class="fas fa-search"></i></a>
+                </div>
+                <div class="countactus flex">
+                    <div class="countactusicon"><i class="fas fa-headset"></i></div>
+                    <div class="countactusinfo">
+                        <span>شماره تماس فروشگاه :</span>
+                        <br>
+                        <span>تلفن : 9891456874+</span>
+                    </div>
+                </div>
+                <div class="cart flex">
+                    <div class="countactusicon"><i class="fas fa-shopping-basket carticon"></i></div>
+                    <div class="countactusinfo">
+                        <span>سبد خرید :</span>
+                        <br>
+                        <span>2 محصول به مبلغ 150000 تومان</span>
+                    </div>
+                    
+                </div>
+            </div>
             <nav class="mainnav"></nav>
         </header>
-        <main></main>
+        <main></main> 
         <footer></footer>
     </div>
 </body>

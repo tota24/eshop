@@ -28,6 +28,7 @@ ul
 {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 a
 {
@@ -43,4 +44,13 @@ h2
     margin: 0 auto;
     min-width: 20em;
     max-width: 90em;
+}
+.flex
+{
+    display: flex;
+}
+select,
+input
+{
+    font-family: inherit;
 }
