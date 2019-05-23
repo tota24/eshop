@@ -1,0 +1,46 @@
+html
+{
+    direction: rtl;
+}
+body
+{
+    font-family: IRANSans;
+    box-sizing: border-box;
+    margin: 0;
+}
+*,
+*::after,
+*::before
+{
+    box-sizing: inherit;
+}
+.clearfix::before,
+.clearfix::after
+{
+    content: ' ';
+    display: table;
+}
+.clearfix::after
+{
+    clear: both;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+}
+h2
+{
+    margin: 0.65em;
+}
+.wrapperclass
+{
+    width: 90%;
+    margin: 0 auto;
+    min-width: 20em;
+    max-width: 90em;
+}
